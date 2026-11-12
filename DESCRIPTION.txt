@@ -1,0 +1,1 @@
+SFTP for simply-cpp: a client on libssh2 to list, read, write, rename and remove files, with known_hosts checking
