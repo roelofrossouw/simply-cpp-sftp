@@ -9,7 +9,7 @@ get_sc_version()
 message(STATUS "SimplyCPP ${SC_MODULE} Version: ${SC_VERSION}")
 
 # sc::params for sftp-tool; libssh2 (BSD-3-Clause) for SSH and SFTP, from the system.
-find_or_install_package(sc-core simply-cpp-dev simply-cpp 1.24.0)
+find_or_install_package(sc-core simply-cpp-dev simply-cpp 2.2.0)
 config_or_install_package(Libssh2 libssh2-1-dev libssh2)
 
 set(SOURCE_OBJECTS)

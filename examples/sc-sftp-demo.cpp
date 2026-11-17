@@ -1,9 +1,9 @@
 // sc-sftp's example: lists a folder on an SFTP server and copies its files here, under temporary names.
 //
 //     sc-sftp-demo HOST USER KEYFILE [FOLDER]
-#include <sc_sftp.h>
+#include <sc/sftp/sc_sftp.h>
 
-#include <params.h>
+#include <sc/core/params.h>
 
 #include <iostream>
 

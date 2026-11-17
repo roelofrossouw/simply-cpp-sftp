@@ -5,7 +5,7 @@ files on an SSH server, with the server's host key checked against `known_hosts`
 server by hand.
 
 ```cpp
-#include <sc_sftp.h>
+#include <sc/sftp/sc_sftp.h>
 
 sc::sftp::client sftp{{.host = "sftp.example.com", .user = "h2h", .key = "/etc/example/id_ed25519",
                        .host_key = sc::sftp::host_key_check::accept_new}};
