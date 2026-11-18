@@ -2,7 +2,7 @@
 // host's line appended to the file with accept_new), signing in with a key file, a password or the SSH agent, and
 // SFTP requests whose failures carry the server's status.
 
-#include <sc/sftp/sc_sftp.h>
+#include <sc/sftp/sftp.h>
 
 #include <libssh2.h>
 #include <libssh2_sftp.h>

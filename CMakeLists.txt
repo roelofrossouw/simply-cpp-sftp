@@ -16,7 +16,7 @@ set(SOURCE_OBJECTS)
 set(SOURCE_LIBRARIES)
 set(SOURCE_LINK_LIBRARIES)
 
-add_sc_object(sc_sftp
+add_sc_object(sftp
         LINK_LIBRARIES sc::sc-core PkgConfig::Libssh2
         PUBLIC_LINK_LIBRARIES sc::sc-core PkgConfig::Libssh2)
 

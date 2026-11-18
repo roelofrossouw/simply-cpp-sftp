@@ -1,7 +1,7 @@
 // sftp-tool: one SFTP request from the command line (list, stat, get, put, cat, mv, rm, mkdir, rmdir, fingerprint),
 // with the host key checked against known_hosts. For trying a server by hand, and in scripts.
 
-#include <sc/sftp/sc_sftp.h>
+#include <sc/sftp/sftp.h>
 
 #include <sc/core/params.h>
 

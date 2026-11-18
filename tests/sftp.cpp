@@ -3,7 +3,7 @@
 // listing, reading and writing, uploads and downloads under a temporary name with their times, renames over a file,
 // removing, errors with their reasons, reconnecting and timeouts. The server's files are local, so they're checked
 // on disk. Skipped (77) without sshd or ssh-keygen.
-#include <sc/sftp/sc_sftp.h>
+#include <sc/sftp/sftp.h>
 #include <sc_test.h>
 
 #include <chrono>
